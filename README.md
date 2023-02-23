@@ -7,8 +7,8 @@ The table displays the user's full name, username, and thumbnail image, and allo
 ## Technologies
 This project was built using the following technologies:
 
-React: a popular JavaScript library for building user interfaces
-TypeScript: a statically-typed superset of JavaScript
+React: a popular JavaScript library for building user interfaces <br>
+TypeScript: a statically-typed superset of JavaScript <br>
 Redux: a predictable state container for JavaScript apps
 
 ## Getting started
