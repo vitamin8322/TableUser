@@ -86,7 +86,7 @@ const UserTable: React.FC<UserTableProps> = ({ users, isLoading }) => {
                 <td>
                   <img src={user.thumbnail} alt={user.firstName} />
                 </td>
-                <td>{`${user.firstName} ${user.lastName}`}</td>
+                <td>{`${user.title} ${user.firstName} ${user.lastName}`}</td>
                 <td>{user.username}</td>
               </tr>
             ))}
