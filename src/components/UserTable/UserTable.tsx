@@ -24,7 +24,7 @@ const UserTable: React.FC<UserTableProps> = ({ users, isLoading }) => {
   const dispatch = useDispatch();
     console.log(users)
   useEffect(() => {
-    dispatch(getUsers(1, 10));
+    dispatch(getUsers(page, 10));
   }, [dispatch, page]);
 
   const sortData = (users: any, sortConfig: any) => {
